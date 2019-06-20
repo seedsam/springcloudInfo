@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>config_server_9090</artifactId>
+	<artifactId>config_client_9091</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config_server_9090</name>
+	<name>config_client_9091</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,8 +22,12 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 
 		<dependency>
