@@ -7,7 +7,7 @@ public class HomeError implements HelloWorldService {
 
 	@Override
 	public String home() {
-		return "eureka-clinet:" + "sorry,error!";
+		return "eureka-client:" + "sorry,error!";
 	}
 
 }
